@@ -16,6 +16,13 @@
         "automerge": true,
         "automergeType": "branch",
         "automergeStrategy": "squash"
+      },
+      {
+        "description": "Disable .python-version file updates",
+        "matchPackageNames": [
+          "pyenv"
+        ],
+        "enabled": false
       }
     ]
   }
