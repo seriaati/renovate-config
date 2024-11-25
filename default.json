@@ -6,7 +6,8 @@
   "dependencyDashboard": false,
   "extends": [
     "config:recommended",
-    ":semanticCommitTypeAll(chore)"
+    ":semanticCommitTypeAll(chore)",
+    ":automergeMinor"
   ],
   "packageRules": [
     {
