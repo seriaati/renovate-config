@@ -19,7 +19,8 @@
       ],
       "automerge": true,
       "automergeType": "branch",
-      "automergeStrategy": "squash"
+      "automergeStrategy": "squash",
+      "platformAutomerge": false
     },
     {
       "description": "Disable .python-version file updates",
