@@ -2,6 +2,10 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "lockFileMaintenance": {
     "enabled": true,
+    "automerge": true,
+    "automergeType": "pr",
+    "automergeStrategy": "squash",
+    "platformAutomerge": false
   },
   "dependencyDashboard": false,
   "extends": [
@@ -18,7 +22,7 @@
         "digest"
       ],
       "automerge": true,
-      "automergeType": "branch",
+      "automergeType": "pr",
       "automergeStrategy": "squash",
       "platformAutomerge": false
     },
