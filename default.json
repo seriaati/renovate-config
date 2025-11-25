@@ -36,6 +36,13 @@
         ".python-version"
       ],
       "enabled": false
+    },
+    {
+      "description": "Disable Dockerfile tag updates",
+      "matchFileNames": [
+        "Dockerfile"
+      ],
+      "enabled": false
     }
   ]
 }
