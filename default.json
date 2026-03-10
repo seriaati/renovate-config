@@ -43,6 +43,14 @@
         "Dockerfile"
       ],
       "enabled": false
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "automerge": true,
+      "platformAutomerge": true,
+      "automergeType": "pr",
+      "automergeStrategy": "squash",
     }
   ]
 }
