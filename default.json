@@ -2,8 +2,10 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "timezone": "Asia/Tokyo",
   "schedule": [
-    "0 0 * * 1/2"
+    "* 0-3 1 * *"
   ],
+  "minimumReleaseAge": "14 days",
+  "internalChecksFilter": "strict",
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true,
@@ -50,7 +52,7 @@
       "automerge": true,
       "platformAutomerge": true,
       "automergeType": "pr",
-      "automergeStrategy": "squash",
+      "automergeStrategy": "squash"
     }
   ]
 }
